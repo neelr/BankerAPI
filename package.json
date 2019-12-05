@@ -1,0 +1,26 @@
+{
+  "name": "bankerapi",
+  "version": "1.0.0",
+  "description": "Banker api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelr/BankerAPI.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neelr/BankerAPI/issues"
+  },
+  "homepage": "https://github.com/neelr/BankerAPI#readme",
+  "dependencies": {
+    "airtable": "^0.8.1",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "qs": "^6.9.1"
+  }
+}
