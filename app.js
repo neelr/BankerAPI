@@ -26,7 +26,7 @@ var send = (gp, id, reason, give_id) => {
                         qs.stringify({
                             token: process.env.SLACK_TOKEN,
                             channel: "UH50T81A6",
-                            text: `<@UH50T81A6> give <@${id}> ${gp}gp for ${reason}`,
+                            text: `<@UH50T81A6> give <@${id}> ${gp}gp for <@${give_id}> sent this gp with the reason: ${reason}`,
                             as_user: true
                         })
                     );

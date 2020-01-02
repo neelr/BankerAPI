@@ -1,5 +1,7 @@
 # BankerAPI Docs
 
+**Current endpoint is `https://bankerapi.glitch.me`**
+
 ## Routes
 
 Only one, `POST /give`
@@ -15,4 +17,4 @@ JSON:
 }
 ```
 
-##### To be added to the API send `@theo, @neelr` a summary of the bot, and the ID! 
+**To be added to the API send `@theo, @neelr` a summary of the bot, and the ID!**
