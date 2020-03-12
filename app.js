@@ -48,7 +48,7 @@ var send = (gp, id, reason, bot_id) => {
                             }
                         }
                     ])
-                    slack(id,`<@${bot_id}> gave you ${gp}gp for the reason - "${reason}", and now you have ${user.gp+gp}gp`);
+                    slack(id,`<@${bot_id}> gave you ${gp}gp for "${reason}." You now have ${user.gp+gp} gp!`);
                 } else {
                     rej()
                 }
