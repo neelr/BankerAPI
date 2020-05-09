@@ -11,7 +11,7 @@ JSON:
 {
 	"token" :"Token Given by admin",
 	"send_id": "Slack ID of person to send to",
-	"give_id":"Your bots slack ID. The one registered with admins",
+	"bot_id":"Your bots slack ID. The one registered with admins",
 	"gp":10, // GP amount
 	"reason":"Reason to show in bank message"
 }
