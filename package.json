@@ -18,7 +18,7 @@
   "homepage": "https://github.com/neelr/BankerAPI#readme",
   "dependencies": {
     "airtable": "^0.8.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "qs": "^6.9.1"
